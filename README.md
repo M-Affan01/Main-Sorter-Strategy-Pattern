@@ -1,4 +1,4 @@
-# 🚀 Main Sorter: The Ultimate Strategy Pattern File Management Suite
+# Main Sorter: The Ultimate Strategy Pattern File Management Suite
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit App](https://img.shields.io/badge/Streamlit-1.32.0-FF4B4B.svg?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
@@ -8,7 +8,7 @@
 
 ---
 
-### 🎓 Academic Project Context
+### Academic Project Context
 > [!IMPORTANT]
 > This project is a comprehensive **Class Assignment** developed under the expert supervision of **Sir Usman Waheed**. 
 > 
@@ -20,37 +20,37 @@
 
 ---
 
-## 📖 Table of Contents
-- ✨ Project Overview
-- 🎯 Core Features
-- 🏗️ System Architecture
-- 🛠️ Technical Stack
-- 🚀 Quick Start & Installation
-- 📖 Detailed Usage Guide
-- 📂 Project Structure Tree
-- ⚙️ Development & Contribution
-- ⚡ Performance & Optimization
-- 🏆 Acknowledgments
-- 📄 License
-- 📞 Contact Information
+## Table of Contents
+- Project Overview
+- Core Features
+- System Architecture
+- Technical Stack
+- Quick Start & Installation
+- Detailed Usage Guide
+- Project Structure Tree
+- Development & Contribution
+- Performance & Optimization
+- Acknowledgments
+- License
+- Contact Information
 
 ---
 
-## ✨ Project Overview
+## Project Overview
 In many academic and industrial environments, data arrives in unstructured streams—mixed media, varying formats, and inconsistent metadata. **Main Sorter** bridges the gap between raw data and organized information. 
 
 The project was conceived as a showcase of software engineering best practices, specifically focusing on **SOLID principles** and the **Strategy Pattern**. It replaces traditional "spaghetti" conditional logic with a clean, polymorphic interface, allowing for "Software as a Platform" where new sorting strategies can be "plugged in" without downtime or code regression.
 
 ---
 
-## 🎯 Core Features
+## Core Features
 
 ###   Premium GUI & UX
 *   **Glassmorphic Design System**: Uses translucency, Gaussian blurs (`backdrop-filter`), and subtle borders to create a state-of-the-art visual depth.
 *   **Fluid Animations**: Hardware-accelerated CSS keyframes for fade-ins, slide-downs, and interactive hover effects.
 *   **Google Font Integration**: Leverages *Outfit* for headers and *Inter* for body text to ensure maximum readability and professional aesthetic.
 
-### 📦 Multi-Category File Management
+### Multi-Category File Management
 *   **Audio Suite**: Sort by filename, file size, bitrate, format (MP3/WAV), or duration using secondary metadata streams.
 *   **Video Suite**: Intelligent sorting by duration and resolution; includes an integrated video player for instant verification.
 *   **Image Gallery**: Alphabetical sorting, size sorting, and a resolution-based "Noor Browser" for professional photographers.
@@ -63,7 +63,7 @@ The project was conceived as a showcase of software engineering best practices, 
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ### Modular Strategy Workflow
 The system follows a strict decoupling between the **UI Hub**, the **Utility Layer**, and the **Strategy Execution Layer**.
@@ -84,7 +84,7 @@ Streamlit's session state is utilized to maintain lists for strategies that requ
 
 ---
 
-##  ️ Technical Stack
+## Technical Stack
 
 | Category | Technology | Version | Description |
 | :--- | :--- | :--- | :--- |
@@ -98,7 +98,7 @@ Streamlit's session state is utilized to maintain lists for strategies that requ
 
 ---
 
-## 🚀 Quick Start & Installation
+## Quick Start & Installation
 
 ### Option 1: Using Pip (Recommended)
 1.  **Clone the Repository**:
@@ -144,38 +144,36 @@ Every strategy includes a **"Clear/Reset"** button to purge the `uploads/` direc
 
 ---
 
-## 📂 Project Structure Tree
+## Project Structure Tree
 
-```text
-📦 project1
- ┣ 📂 strategies             # The Strategy Implementation Package
- ┃ ┣ 📜 __init__.py          # Exposed package entry
- ┃ ┣ 📜 utils.py             # THE DESIGN SYSTEM (CSS, Hub Tokens)
- ┃ ┣ 📜 sukaina.py           # Logic: Audio Name Organization
- ┃ ┣ 📜 midhat.py            # Logic: Video Duration Metadata
- ┃ ┣ 📜 daniyal.py           # Logic: Parametric Color Extraction
- ┃ ┗ 📜 ... (21 more)        # Granular sorting modules
- ┣ 📜 streamlit_app.py       # THE MAIN ENGINE (Routing & Orchestration)
- ┗ 📜 Strategy.py            # Architectural reference file
+```
+project1
+ ┣ strategies             # The Strategy Implementation Package
+ ┃ ┣ __init__.py          # Exposed package entry
+ ┃ ┣ utils.py             # THE DESIGN SYSTEM (CSS, Hub Tokens)
+ ┃ ┣ sukaina.py           # Logic: Audio Name Organization
+ ┃ ┣ midhat.py            # Logic: Video Duration Metadata
+ ┃ ┣ daniyal.py           # Logic: Parametric Color Extraction
+ ┃ ┗ ... (21 more)        # Granular sorting modules
+ ┣ streamlit_app.py       # THE MAIN ENGINE (Routing & Orchestration)
+ ┗ Strategy.py            # Architectural reference file
 ```
 
 ---
 
-## ⚡ Performance & Optimization
+## Performance & Optimization
 *   **In-Memory Buffering**: Small tasks are handled in-memory to reduce disk I/O latency.
 *   **Quantized Sampling**: Image color analysis samples pixels at 16-bit intervals to process HD images in milliseconds.
 *   **Pre-Flight Checks**: The system checks for FFmpeg availability before launching video modules to prevent runtime crashes.
 
 ---
 
----
-
-## 📄 License
+## License
 This project is licensed under the **MIT License**. You are free to use, modify, and distribute this software for personal or commercial use.
 
 ---
 
-## 📞 Contact Information
+## Contact Information
 For professional inquiries, collaborations, or technical support:
 
 *   **Lead Integrator**: Muhammad Affan
@@ -184,7 +182,7 @@ For professional inquiries, collaborations, or technical support:
 *   **LinkedIn**: https://www.linkedin.com/in/affan-nexor-66abb8321/
 
 ---
-## 🌟 Acknowledgments
+## Acknowledgments
 Special thanks to:
 *  **Prof. Usman Waheed** for architectural guidance
 *  Class of 2025 for diverse strategy implementations
